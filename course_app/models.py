@@ -58,7 +58,7 @@ class Access_Product(models.Model):
             except IndexError():
                 raise IndexError('Все места забиты')
 
-            group = Group.objects.get(pk=min_group.pk)
-            group.product = self.product
-            group.student.add(self.user)
-            group.save()
+        group = Group.objects.get(pk=min_group.pk)
+        group.product = self.product
+        group.student.add(self.user)
+        group.save()
