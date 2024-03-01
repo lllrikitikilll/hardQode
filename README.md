@@ -18,19 +18,19 @@
 ```
 http://127.0.0.1:8000/api/courses
 ```
-![img.png](img.png)
+![img.png](Img/img.png)
 
 2. Получение всех уроков пользователя по определенному предмету
 ```
 http://127.0.0.1:8000/api/lessons/Математика
 ```
-![img_1.png](img_1.png)
+![img_1.png](Img/img_1.png)
 
 3. Получение статистики по всем продуктам
 ```
 http://127.0.0.1:8000/api/statistics
 ```
-![img_2.png](img_2.png)
+![img_2.png](Img/img_2.png)
 
 ### Запуск приложения
 
