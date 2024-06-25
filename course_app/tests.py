@@ -5,5 +5,6 @@ from django.test import TestCase
 class TestViews(TestCase):
     pass
 
+class TestUrls(TestCase):
+    pass
 
-# write so long testcase
